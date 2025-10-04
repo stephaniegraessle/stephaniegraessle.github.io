@@ -1,2 +1,7 @@
-#name: STEchannel
-#theme: minima
+name: STEchannel
+email: stechannel.contact.com
+description: Art portfolio
+url: https://stechannel.com
+instagram_username: ste_channel
+
+theme: minima
