@@ -52,7 +52,9 @@ main {
 }
 
 .gallery img {
-  width: 100%;
+  width: 100%;          /* makes each image as wide as its container */
+  height: auto;         /* keeps the correct aspect ratio */
+  max-width: 100%;      /* prevents overflow */
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.2s ease;
@@ -67,14 +69,4 @@ footer {
   padding: 2rem 1rem;
   color: #999;
   font-size: 0.9rem;
-}
-
-
-.gallery img {
-  width: 100%;          /* makes each image as wide as its container */
-  height: auto;         /* keeps the correct aspect ratio */
-  max-width: 100%;      /* prevents overflow */
-  border-radius: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
 }
