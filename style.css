@@ -70,3 +70,31 @@ footer {
   color: #999;
   font-size: 0.9rem;
 }
+
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Social media icon hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+  background: #FF0000;
+  color: white;
+}
+
+/* YouTube */
+.fa-youtube {
+  background: #bc2a8d ;
+  color: white;
+}
