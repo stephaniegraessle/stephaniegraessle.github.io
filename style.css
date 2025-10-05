@@ -1,5 +1,74 @@
-body { background: #fff8fb; }
-h1 { color: #ff6fae; }
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fff8fb;
+  color: #444;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ffe0ec;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #ff6fae;
+}
+
+header p {
+  margin-top: 0.3rem;
+  color: #777;
+}
+
+nav {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #ff6fae;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #999;
+  font-size: 0.9rem;
+}
+
 
 .gallery img {
   width: 100%;          /* makes each image as wide as its container */
