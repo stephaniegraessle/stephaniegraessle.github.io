@@ -1,21 +1,21 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #fff8fb;
+  background-color: #FFF6F6;
   color: #444;
 }
 
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #ffe0ec;
+  background-color: #FFDFDF;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 header h1 {
   margin: 0;
   font-size: 2.2rem;
-  color: #ff6fae;
+  color: #F875AA;
 }
 
 header p {
@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-  color: #ff6fae;
+  color: #F875AA;
   text-decoration: none;
   margin: 0 1rem;
   font-weight: bold;
@@ -91,7 +91,7 @@ footer {
 
 /* Instagram */
 .fa-instagram {
-  background: #bc2a8d ;
+  background: #D62976;
   color: white;
 }
 
